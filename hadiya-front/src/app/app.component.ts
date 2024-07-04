@@ -9,7 +9,7 @@ export class AppComponent implements OnInit {
 title = 'hadiya_products_admin';
 constructor(private http: HttpClient) {}
 ngOnInit() {
-this.http.get('http://34.227.148.191:3000').subscribe((data: any) => {
+this.http.get('http://localhost:3000').subscribe((data: any) => {
 console.log(data);
 });
 }
